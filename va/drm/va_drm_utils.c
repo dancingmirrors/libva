@@ -60,7 +60,7 @@ VA_DRM_GetDriverNames(VADriverContextP ctx, char **drivers, unsigned *num_driver
         const char * const va_driver[MAX_NAMES];
     } map[] = {
         { "xe",         { "iHD"              } },
-        { "i915",       { "iHD", "i965"      } }, // Intel Media and OTC GenX
+        { "i915",       { "i965"             } }, // Intel Media and OTC GenX
         { "pvrsrvkm",   { "pvr"              } }, // Intel UMG PVR
         { "radeon",     { "r600", "radeonsi" } }, // Mesa Gallium
         { "amdgpu",     { "radeonsi"         } }, // Mesa Gallium
