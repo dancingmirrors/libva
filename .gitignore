@@ -33,3 +33,4 @@ stamp-h1
 /va/wayland/wayland-drm-client-protocol.*
 /doc/Doxyfile
 /doc/html-out
+build
